@@ -6,9 +6,6 @@
 body {
   font-family: 'Playfair Display', serif;
 
-  height:100vh;
-  width:100vw;
-
   overflow:hidden;
   background-color: #000;
   color:white;
@@ -19,19 +16,15 @@ a {
   text-decoration: none;
 }
 
-header {
-  position : absolute;
-  left:50px;
-  top:25px;
-  bottom:25px;
-
-  width:-webkit-fill-available;
-}
-
 img {
   user-select: none;
   -moz-user-select: none;
   -webkit-user-drag: none;
   -webkit-user-select: none;
   -ms-user-select: none;
+}
+
+*::selection {
+  color : black;
+  background : #F1BE71;
 }

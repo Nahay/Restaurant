@@ -8,10 +8,18 @@ import content from './slider.json';
 export default function Slider() {
 
     const [index, setIndex] = useState(0);
+    const [width, setWindowWidth] = useState(0);
     const screen = useRef(null);
     const arrows = useRef(null);
 
+    
+    const updateDimensions = () => setWindowWidth(window.innerWidth);
+
     useEffect(() => {
+
+        updateDimensions();
+        window.addEventListener('resize', updateDimensions);
+
         screen.current.children[0].children[0].classList.remove('bottom');
         screen.current.children[0].children[1].classList.remove('banner--hidden');
 
@@ -57,10 +65,10 @@ export default function Slider() {
         <div className="slider">
             <div ref={arrows} className="arrow__container">
                 <div className="arrow--hidden">
-                    <Arrow direction="top" onClick={onArrowUpClick}/>
+                    <Arrow direction={width <= 1010 ? "left" : "top"} onClick={onArrowUpClick}/>
                 </div>
                 <div className="arrow--hidden">
-                    <Arrow direction="bottom" onClick={onArrowDownClick}/>
+                    <Arrow direction={width <= 1010 ? "" : "bottom"} onClick={onArrowDownClick}/>
                 </div>
             </div>
 
