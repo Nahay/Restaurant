@@ -117,13 +117,11 @@
             top:unset;
             left:170px;
             right:170px;
-            bottom:60px;
+            bottom:calc(50px + 5%);
 
             display:flex;
             justify-content: space-between;
             align-items: flex-end;
-
-            height:100px;
 
             div span {
                 margin-left:0;
