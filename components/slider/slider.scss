@@ -1,0 +1,100 @@
+.slider {
+    position : absolute;
+    left:10px;
+    width:100vw;
+    height:100vh;
+
+    .arrow__container {
+        position : relative;
+        left:15px;
+        top:45%;
+
+        span {
+            position : absolute;
+            margin-left:10px;
+            transition: all .5s;
+        }
+
+        .arrow--hidden {
+            visibility: hidden;
+            opacity: 0;
+        }  
+    }
+
+    * {transition: all .5s;}
+    
+    .text__container {
+        position : absolute;
+        left:20%;
+        top:30%;
+        z-index:1;
+
+        height:350px;
+
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        transition: top bottom .5s;
+
+        p:first-child {
+            font-size:25px;
+            font-weight:500;
+        }
+
+        h1 {
+            font-size: 130px;
+            font-weight:500;
+        }
+
+        h3 {
+            font-size:17px;
+            font-weight: 100;
+            max-width:500px;
+        }
+
+        .action {
+            position : relative;
+            display:flex;
+            align-items: center;
+
+            height:50px;
+            
+            margin-top:80px;
+            cursor:pointer;
+
+            p {
+                text-transform: uppercase;
+                font-weight:100;
+                font-size:20px;
+            }
+
+            span:first-child {
+                bottom:-10%;
+                margin-left:20px;
+            }
+
+            &:hover {
+                span span span {
+                    width:120px;
+                }
+            }
+        }
+    }
+
+    .top { top:-100% }
+    .bottom { top: 100% }
+
+    .banner {
+        position:absolute;
+        right:0;
+
+        width:50%;
+        height:100%;
+
+        opacity:0.8;
+        transition : opacity .5s;
+    }
+
+    .banner--hidden { opacity:0 }
+}

@@ -1,0 +1,30 @@
+[
+    {
+        "subtitle":"A True Restaurant",
+        "title": "The Scarlet",
+        "description": "Feel The Authentic & Original Taste From Us",
+        "action":"Get the menu",
+        "img": "/images/01.jpg"
+    },
+    {
+        "subtitle":"Eat Great Food",
+        "title": "Natural Products",
+        "description": "Feel The Authentic & Original Taste From Us",
+        "action":"About us",
+        "img": "/images/02.jpg"
+    },
+    {
+        "subtitle":"Eat Very Great Food*",
+        "title": "A Unique Experience",
+        "description": "Feel The Authentic & Original Taste From Us",
+        "action":"Get the menu",
+        "img": "/images/03.jpg"
+    },
+    {
+        "subtitle":"Whenever You Want",
+        "title": "A Lovely Place",
+        "description": "To Come With Your Family And Friends!",
+        "action":"i wanna come",
+        "img": "/images/04.jpg"
+    }
+]
