@@ -3,10 +3,14 @@
   margin: 0;
 }
 
+html {
+  height:100%;
+  position : fixed;
+}
 body {
   font-family: 'Playfair Display', serif;
 
-  /* overflow:hidden; */
+  overflow:hidden;
   background-color: #000;
   color:white;
 }

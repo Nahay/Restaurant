@@ -2,7 +2,7 @@
     position : absolute;
     left:10px;
     width:100vw;
-    height:100vh;
+    height:100%;
 
     .arrow__container {
         position : relative;
@@ -117,7 +117,7 @@
             top:unset;
             left:170px;
             right:170px;
-            bottom:calc(50px + 5%);
+            bottom:10%;
 
             display:flex;
             justify-content: space-between;
