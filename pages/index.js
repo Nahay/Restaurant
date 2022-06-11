@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 import Logo from '../components/Logo/Logo'
 import Slider from '../components/slider/Slider'
-import SocialMedia from '../components/SocialMedia/SocialMedia'
+import SocialMedia from '../components/socialMedia/SocialMedia'
 
 
 export default function Home() {
