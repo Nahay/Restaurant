@@ -7,7 +7,7 @@ export default function Document() {
         <meta name="description" content="Scarlet Restaurant" />
         <link rel="icon" href="/logo192.ico" />
 
-        <meta name="theme-color" content="#4f46e5"/>
+        <meta name="theme-color" content="#F1BE71"/>
 
         <meta name="keywords" content="restaurant, scarlet, showcase site" />
         <meta name= "author" content= "Lily B" />
