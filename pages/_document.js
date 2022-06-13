@@ -16,14 +16,14 @@ export default function Document() {
         <meta property="og:type" content="website" />
         <meta property="og:description" content="Scarlet is a modern restaurant located in Manhattan."/>
         <meta property="og:site_name" content="Scarlet Restaurant"/>
-        <meta property="og:image" content=""/>
+        <meta property="og:image" content="https://raw.githubusercontent.com/Nahay/Assets/master/Scarlet/banner.png"/>
         <meta property="og:image:type" content="image/png" />
         <meta property="og:image:width" content="590" />
         <meta property="og:image:height" content="300" />
-        <meta property="og:url" content=""/>
+        <meta property="og:url" content="https://thescarlet.vercel.app/"/>
         
         <meta name="twitter:card" content="summary_large_image"/>
-        <meta name="twitter:image:alt" content=""/>
+        <meta name="twitter:image:alt" content="https://raw.githubusercontent.com/Nahay/Assets/master/Scarlet/banner.png"/>
 
 
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
