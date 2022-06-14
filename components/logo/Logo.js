@@ -6,7 +6,7 @@ export default function Logo() {
 
     return(
         <div className={styles.logo}>
-            <Image src="/logo192.png" alt="logo" width={50} height={50} />
+            <Image src="/logo/logo192.png" alt="logo" width={50} height={50} />
         </div>
     )
 

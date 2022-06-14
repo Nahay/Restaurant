@@ -12,21 +12,21 @@ export default function SocialMedia() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <Image src="/facebook.svg" alt="Facebook" width={12} height={20} />
+                    <Image src="/social/facebook.svg" alt="Facebook" width={12} height={20} />
                 </a>
                 <a
                     href="https://www.instagram.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <Image src="/instagram.svg" alt="Instagram" width={20} height={20} />
+                    <Image src="/social/instagram.svg" alt="Instagram" width={20} height={20} />
                 </a>
                 <a
                     href="https://twitter.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <Image src="/twitter.svg" alt="Twitter" width={20} height={20} />
+                    <Image src="/social/twitter.svg" alt="Twitter" width={20} height={20} />
                 </a>
             </div>
         </div>

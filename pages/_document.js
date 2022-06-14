@@ -5,7 +5,7 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <meta name="description" content="Scarlet Restaurant" />
-        <link rel="icon" href="/logo192.ico" />
+        <link rel="icon" href="/logo/logo192.ico" />
 
         <meta name="theme-color" content="#F1BE71"/>
 
