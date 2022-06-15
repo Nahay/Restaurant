@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Nahay/Scarlet/master/public/logo192.png" alt="Logo" width="85" height="80">
+  <img src="https://raw.githubusercontent.com/Nahay/Scarlet/master/public/logo/logo192.png" alt="Logo" width="85" height="80">
 
   <h3 align="center">Scarlet</h3>
 
